@@ -91,9 +91,22 @@ get help
 // 快速生成 dart bean 的命令行工具
 #### 使用步骤：
 a、在yaml文件中添加依赖：
+<!-- dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  dio: ^4.0.6
+  retrofit: ^3.0.1+1
+
 dev_dependencies: 
-    json_model: ^1.0.0
-    json_serializable: ^6.3.1
-    json_annotation: ^4.6.0
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+  json_model: ^1.0.0
+  json_serializable: ^6.3.1
+  json_annotation: ^4.6.0
+  build_runner: any
+  retrofit_generator: ^4.0.2 -->
 b、生成命令：https://pub.dev/packages/json_model
 
