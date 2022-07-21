@@ -1,0 +1,18 @@
+{
+    "@meta": {
+        "import": [
+            "profile.dart"
+        ],
+        "comments": {
+            "name": "名字"
+        },
+        "nullable": true
+    },
+    "@JsonKey(ignore: true) Profile?": "profile",
+    "@JsonKey(name: '+1') int?": "loved",
+    "name": "wendux",
+    "father": "$user",
+    "friends": "$[]user",
+    "keywords": "$[]String",
+    "age?": 20
+}

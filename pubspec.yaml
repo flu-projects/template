@@ -1,0 +1,31 @@
+name: wallet
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.5 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  dio: ^4.0.6
+  retrofit: ^3.0.1+1
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+  json_model: ^1.0.0
+  json_serializable: ^6.3.1
+  json_annotation: ^4.6.0
+  build_runner: any
+  retrofit_generator: ^4.0.2
+
+flutter: 
+  uses-material-design: true
+
+assets:
+  # assets-generator-begin
+  # assets-generator-end
