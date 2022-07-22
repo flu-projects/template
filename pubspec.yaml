@@ -12,6 +12,21 @@ dependencies:
     sdk: flutter
   dio: ^4.0.6
   retrofit: ^3.0.1+1
+  flustars_flutter3: ^3.0.0
+  flutter_cache_manager: ^3.3.0
+  cached_network_image: ^3.2.0
+  flutter_svg: ^1.1.1+1
+  permission_handler: ^9.2.0
+  logger: ^1.0.0
+  path_provider: ^2.0.2
+  fast_gbk: ^1.0.0
+  event_bus: ^2.0.0
+  device_info_plus: ^3.2.2
+  package_info_plus: ^1.4.0
+  uni_links: ^0.5.1
+  flutter_staggered_grid_view: ^0.6.1
+  flutter_smart_dialog: ^4.3.1
+  connectivity_plus: ^2.2.1
 
 dev_dependencies: 
   flutter_lints: 2.0.1

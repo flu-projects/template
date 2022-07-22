@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-const receiveTimeout = 5000;
+const timeout = 5000;
 
 class DioUtil {
   // 静态变量指向自身
@@ -26,9 +26,9 @@ class DioUtil {
 
   Dio createDioInstance() {
     var dio = Dio(BaseOptions(
-      connectTimeout: receiveTimeout,
-      sendTimeout: receiveTimeout,
-      receiveTimeout: receiveTimeout,
+      connectTimeout: timeout,
+      sendTimeout: timeout,
+      receiveTimeout: timeout,
     ));
 
     dio.interceptors.add(
@@ -83,8 +83,10 @@ class DioUtil {
     RequestOptions requestOptions = e.requestOptions;
     int statusCode = e.response?.statusCode ?? 400;
     String msg = e.message;
-    if (e.type == DioErrorType.receiveTimeout) {
-      statusCode = 1000;
+    if (e.type == DioErrorType.connectTimeout ||
+        e.type == DioErrorType.sendTimeout ||
+        e.type == DioErrorType.receiveTimeout) {
+      statusCode = timeout;
       msg = '网络繁忙，请稍后重试';
     }
     handler.resolve(Response(
