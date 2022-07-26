@@ -139,7 +139,7 @@ class _HashStartAppState extends State<_HashStartApp>
       navigatorKey: navigatorKey,
       initialBinding: InitialBinding(),
       initialRoute: AppPages.INITIAL,
-      // getPages: AppPages.pages,
+      getPages: AppPages.routes,
       // routes: AppPages.routers,
       navigatorObservers: [FlutterSmartDialog.observer],
       builder: FlutterSmartDialog.init(

@@ -5,6 +5,25 @@ part of utils;
 class Gaps {
   /// 水平间隔
   static Widget hGap2 = SizedBox(width: dp.d2);
+  static Widget hGap3 = SizedBox(width: dp.d3);
+  static Widget hGap4 = SizedBox(width: dp.d4);
+  static Widget hGap5 = SizedBox(width: dp.d5);
+  static Widget hGap6 = SizedBox(width: dp.d6);
+  static Widget hGap7 = SizedBox(width: dp.d7);
+  static Widget hGap8 = SizedBox(width: dp.d8);
+  static Widget hGap10 = SizedBox(width: dp.d10);
+  static Widget hGap12 = SizedBox(width: dp.d12);
+  static Widget hGap14 = SizedBox(width: dp.d14);
+  static Widget hGap15 = SizedBox(width: dp.d15);
+  static Widget hGap16 = SizedBox(width: dp.d16);
+  static Widget hGap18 = SizedBox(width: dp.d18);
+  static Widget hGap20 = SizedBox(width: dp.d20);
+  static Widget hGap23 = SizedBox(width: dp.d23);
+  static Widget hGap26 = SizedBox(width: dp.d26);
+  static Widget hGap32 = SizedBox(width: dp.d32);
+  static Widget hGap40 = SizedBox(width: dp.d40);
+  static Widget hGap44 = SizedBox(width: dp.d44);
+  static Widget hGap60 = SizedBox(width: dp.d60);
 
   /// 垂直间隔
   static Widget vGap2 = SizedBox(height: dp.d2);
