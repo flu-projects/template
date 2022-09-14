@@ -1,4 +1,4 @@
-# wallet
+# template
 
 
 # 命令使用说明：
@@ -84,6 +84,9 @@ get -v
 
 // 帮助
 get help
+
+// 升级yml中的插件版本
+flutter pub upgrade --major-versions
 
 
 ### 2、json_model；
